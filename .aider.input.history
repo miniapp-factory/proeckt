@@ -1,0 +1,378 @@
+
+# 2025-11-20 17:38:40.761304
++Code the following app
++```
++Technical Specification (TS): Crypto Analytics Tool
++1. Project Overview
++
++Develop a crypto analytics tool designed to support analysts in making data-driven decisions. The tool must collect, process, visualize, and interpret blockchain and market data in real time. It should provide actionable insights on price movements, on-chain activity, market sentiment, liquidity flows, and risk levels.
++
++2. Core Objectives
++
++Provide real-time and historical cryptocurrency market data.
++
++Analyze on-chain metrics for selected blockchains (e.g., Bitcoin, Ethereum).
++
++Offer visualization dashboards for better interpretation of data.
++
++Enable alerts based on user-defined thresholds or AI-driven anomaly detection.
++
++Provide exportable reports (CSV, PDF).
++
++Ensure high performance and minimal latency.
++
++3. Key Features
++3.1 Data Collection
++
++Integrate with major market data providers (CoinGecko, Binance API, Coinbase, Kraken).
++
++On-chain data via providers such as Glassnode, CryptoQuant, Alchemy, Infura, Chainbase.
++
++Social sentiment sources (Twitter/X API, Reddit API, LunarCrush).
++
++Data refresh interval: 1s–60s (configurable).
++
++3.2 Analytics Modules
++3.2.1 Market Analytics
++
++Price tracking and volatility analysis
++
++Market depth and order book aggregation
++
++Volume and liquidity metrics
++
++Moving averages (SMA, EMA), RSI, MACD
++
++3.2.2 On-Chain Analytics
++
++Active addresses, new addresses
++
++Transaction volume, fees, mempool size
++
++Whale movements tracking
++
++Exchange inflows/outflows
++
++Supply distribution and holder age metrics
++
++3.2.3 Sentiment Analysis
++
++NLP sentiment scoring (positive/neutral/negative)
++
++Fear & Greed index calculations
++
++Social trend detection using keywords and hashtags
++
++3.2.4 Risk & Anomaly Detection
++
++Volatility spikes
++
++On-chain anomalies (unusual inflows/outflows)
++
++Exchange wallet activity alerts
++
++Sudden sentiment changes
++
++4. User Interface Requirements
++4.1 Dashboard
++
++Modular, customizable widgets
++
++Real-time charts (candles, depth charts, heat maps)
++
++Alerts panel
++
++Multi-asset comparison view
++
++4.2 Visualizations
++
++Time-series charts
++
++Pie charts, bar graphs
++
++Heatmaps of liquidity or sentiment
++
++On-chain flow diagrams
++
++4.3 User Settings
++
++Custom alert thresholds
++
++Watchlists
++
++API key management
++
++Dark/light mode
++
++5. System Architecture
++5.1 Frontend
++
++Technologies: React.js / Vue.js
++
++Real-time data handling: WebSockets
++
++Charting: TradingView Charting Library or D3.js
++
++5.2 Backend
++
++Technologies: Node.js / Python (FastAPI / Django)
++
++Data processing pipeline with caching
++
++Database: PostgreSQL or MongoDB
++
++Redis for real-time caching
++
++Microservices architecture is recommended
++
++5.3 Integrations
++
++External APIs for data ingestion
++
++Optional AI/ML module (Python-based)
++
++Authentication via JWT or OAuth
++
++6. Performance Requirements
++
++Real-time data latency < 1 second
++
++Backend uptime 99.9%
++
++Efficient handling of 100k requests/min
++
++Scalability to support thousands of concurrent users
++
++7. Security Requirements
++
++HTTPS and data encryption
++
++Protection against DDOS
++
++Rate limiting for API endpoints
++
++Secure storage of user API keys (encrypted vault)
++
++8. Deliverables
++
++Complete architecture diagrams
++
++Frontend + Backend source code
++
++Documentation (API docs, installation, architecture)
++
++Unit and integration tests (>80% coverage)
++
++Production-ready deployment scripts (Docker/Kubernetes)
++
++9. Timeline (Example)
++Phase	Duration	Deliverables
++Research & Planning	1–2 weeks	Requirements, architecture
++Backend Development	3–5 weeks	API modules, DB setup
++Frontend Development	3–5 weeks	UI, dashboards, charts
++AI/ML Features	2–4 weeks	Sentiment & anomaly detection
++Testing	2 weeks	QA, bug fixes
++Deployment	1 week	Production launch
++10. Success Criteria
++
++Stable real-time analytics system
++
++Accurate and verified data
++
++Intuitive UI for crypto analysts
++
++Scalable infrastructure
++
++High user satisfaction
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-20 17:38:40.761958
++Code the following app
++```
++Technical Specification (TS): Crypto Analytics Tool
++1. Project Overview
++
++Develop a crypto analytics tool designed to support analysts in making data-driven decisions. The tool must collect, process, visualize, and interpret blockchain and market data in real time. It should provide actionable insights on price movements, on-chain activity, market sentiment, liquidity flows, and risk levels.
++
++2. Core Objectives
++
++Provide real-time and historical cryptocurrency market data.
++
++Analyze on-chain metrics for selected blockchains (e.g., Bitcoin, Ethereum).
++
++Offer visualization dashboards for better interpretation of data.
++
++Enable alerts based on user-defined thresholds or AI-driven anomaly detection.
++
++Provide exportable reports (CSV, PDF).
++
++Ensure high performance and minimal latency.
++
++3. Key Features
++3.1 Data Collection
++
++Integrate with major market data providers (CoinGecko, Binance API, Coinbase, Kraken).
++
++On-chain data via providers such as Glassnode, CryptoQuant, Alchemy, Infura, Chainbase.
++
++Social sentiment sources (Twitter/X API, Reddit API, LunarCrush).
++
++Data refresh interval: 1s–60s (configurable).
++
++3.2 Analytics Modules
++3.2.1 Market Analytics
++
++Price tracking and volatility analysis
++
++Market depth and order book aggregation
++
++Volume and liquidity metrics
++
++Moving averages (SMA, EMA), RSI, MACD
++
++3.2.2 On-Chain Analytics
++
++Active addresses, new addresses
++
++Transaction volume, fees, mempool size
++
++Whale movements tracking
++
++Exchange inflows/outflows
++
++Supply distribution and holder age metrics
++
++3.2.3 Sentiment Analysis
++
++NLP sentiment scoring (positive/neutral/negative)
++
++Fear & Greed index calculations
++
++Social trend detection using keywords and hashtags
++
++3.2.4 Risk & Anomaly Detection
++
++Volatility spikes
++
++On-chain anomalies (unusual inflows/outflows)
++
++Exchange wallet activity alerts
++
++Sudden sentiment changes
++
++4. User Interface Requirements
++4.1 Dashboard
++
++Modular, customizable widgets
++
++Real-time charts (candles, depth charts, heat maps)
++
++Alerts panel
++
++Multi-asset comparison view
++
++4.2 Visualizations
++
++Time-series charts
++
++Pie charts, bar graphs
++
++Heatmaps of liquidity or sentiment
++
++On-chain flow diagrams
++
++4.3 User Settings
++
++Custom alert thresholds
++
++Watchlists
++
++API key management
++
++Dark/light mode
++
++5. System Architecture
++5.1 Frontend
++
++Technologies: React.js / Vue.js
++
++Real-time data handling: WebSockets
++
++Charting: TradingView Charting Library or D3.js
++
++5.2 Backend
++
++Technologies: Node.js / Python (FastAPI / Django)
++
++Data processing pipeline with caching
++
++Database: PostgreSQL or MongoDB
++
++Redis for real-time caching
++
++Microservices architecture is recommended
++
++5.3 Integrations
++
++External APIs for data ingestion
++
++Optional AI/ML module (Python-based)
++
++Authentication via JWT or OAuth
++
++6. Performance Requirements
++
++Real-time data latency < 1 second
++
++Backend uptime 99.9%
++
++Efficient handling of 100k requests/min
++
++Scalability to support thousands of concurrent users
++
++7. Security Requirements
++
++HTTPS and data encryption
++
++Protection against DDOS
++
++Rate limiting for API endpoints
++
++Secure storage of user API keys (encrypted vault)
++
++8. Deliverables
++
++Complete architecture diagrams
++
++Frontend + Backend source code
++
++Documentation (API docs, installation, architecture)
++
++Unit and integration tests (>80% coverage)
++
++Production-ready deployment scripts (Docker/Kubernetes)
++
++9. Timeline (Example)
++Phase	Duration	Deliverables
++Research & Planning	1–2 weeks	Requirements, architecture
++Backend Development	3–5 weeks	API modules, DB setup
++Frontend Development	3–5 weeks	UI, dashboards, charts
++AI/ML Features	2–4 weeks	Sentiment & anomaly detection
++Testing	2 weeks	QA, bug fixes
++Deployment	1 week	Production launch
++10. Success Criteria
++
++Stable real-time analytics system
++
++Accurate and verified data
++
++Intuitive UI for crypto analysts
++
++Scalable infrastructure
++
++High user satisfaction
++```
++
++Generate an app logo and update the app metadata title and description.
